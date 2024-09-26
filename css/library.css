@@ -14,9 +14,6 @@
 .background{
     background: var(--background-color);
 }
-.hero{
-    height: 95vh;
-}
 .font2{
     font-family: "Merriweather";
 }
