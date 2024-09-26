@@ -38,9 +38,10 @@ button{
     gap: 0.1rem;
     border-radius: 1.5rem;
 }
+
+/* SECTION 1 */
 section:nth-child(1){
     justify-content: space-between;
-    /* flex-wrap: wrap-reverse; */
 }
 section:nth-child(1) img{
     width: 35rem;
@@ -59,4 +60,14 @@ section:nth-child(1) p{
 }
 section:nth-child(1) button{
     background: #285d6b;
+}
+
+/* SECTION 2 */
+section:nth-child(2){
+    margin-top: 5rem;
+    text-align: center;
+}
+section:nth-child(2) h2{
+    font-size: 2.5rem;
+    font-weight: 800;
 }
