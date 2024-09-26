@@ -67,7 +67,20 @@ section:nth-child(2){
     margin-top: 5rem;
     text-align: center;
 }
-section:nth-child(2) h2{
+section h2{
     font-size: 2.5rem;
     font-weight: 800;
+    text-align: center;
+}
+section:nth-child(2) div{
+    justify-content: space-between;
+}
+section:nth-child(2) figure{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 13rem;
+    gap: 1rem;
 }
