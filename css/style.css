@@ -10,13 +10,21 @@
 }
 body{
     font-family: "Roboto";
+    padding-top: 7rem;
 }
 .links{
     gap: 2rem;
 }
 nav{
     justify-content: space-between;
-    padding: 2rem;
+    padding: 0 2rem;
+    padding-bottom: 0.1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    /* border-bottom: black 1px solid; */
 }
 nav img{
     width: 4rem;
@@ -66,6 +74,8 @@ section:nth-child(1) button{
 section:nth-child(2){
     margin-top: 5rem;
     text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
 }
 section h2{
     font-size: 2.5rem;
@@ -83,4 +93,17 @@ section:nth-child(2) figure{
     width: 20rem;
     height: 13rem;
     gap: 1rem;
+}
+
+/* SECTION 3 */
+section:nth-child(3) div{
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+section:nth-child(3) p{
+    width: 25rem;
+}
+section:nth-child(3) span{
+    color: var(--accent-color);
+    font-weight: 600;
 }
